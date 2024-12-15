@@ -4,11 +4,10 @@
 
 It's a lightweight utility for Windows that lets the users create groups of shortcuts in the taskbar. This is a forked repo from [tjackenpacken/taskbar-groups](https://github.com/tjackenpacken/taskbar-groups) and all the credits & thanks to the owner of this repo.
 
-
+## Screenshot
+![image](https://github.com/user-attachments/assets/38434c95-0bc7-4415-aa45-80527eb64411)
 
 ## [-> DOWNLOAD <-](https://github.com/ebicoglu/taskbar-groups/releases/download/untagged-11890c776e17951835c7/TaskbarGroups.exe)
-
-
 
 
 
