@@ -26,16 +26,11 @@ It's a lightweight utility for Windows that lets the users create groups of shor
 * [➤ Image/Icon  Caching](#-imageicon-caching)
 * [➤ Program Shortcuts](#%EF%B8%8F-program-shortcuts)
 * [➤ File/Folder Structure](#-folder-structure-documentation)
-* [➤ License](#-License)
 
- [![-----------------------------------------------------](https://user-images.githubusercontent.com/56088716/103312593-8a37ff80-49eb-11eb-91d3-75488e21a0a9.png)](#how-to-download-taskbar-groups)
 
-##  🔽 How to download Taskbar groups:
-    1. Download the .zip-file from the latest release (link above)
-    2. Unpack the .zip-file at a desired location
-    3. Run the TaskbarGroups.exe file in the extracted folder
 
  [ ![-----------------------------------------------------](https://user-images.githubusercontent.com/56088716/103312593-8a37ff80-49eb-11eb-91d3-75488e21a0a9.png)](#creating-your-first-group)
+
 ## 🛠️ Creating your first group
     1. Press on the "Add taskbar group"
     2. Give the group a name and an icon
@@ -47,6 +42,7 @@ It's a lightweight utility for Windows that lets the users create groups of shor
     6. In the folder that opens up, right click on the highlighted shortcut
     7. Select "Pin to taskbar"
  [![-----------------------------------------------------](https://user-images.githubusercontent.com/56088716/103312593-8a37ff80-49eb-11eb-91d3-75488e21a0a9.png)](#screenwindow-documentation)
+
 ## 🖥️ Screen/Window Documentation
  Below will be some documentation for each of the screens with explaining the functionality of each of the components.
 #### Main screen [](#main-screen)
@@ -114,8 +110,6 @@ Crucial information about the shortcuts and the group itself stored inside of he
 In here stores the individual profiles for each form. Essentially these profiles are per-compiled code that the application can read from to improve loading times and responsiveness in the system.
 #### /Shortcuts
 Here is where all of your shortcuts to activate your group will go. All groups created will have their shortcut created here and after creation, you can feel free to move the shortcut or pin it to any desired locations.
-![-----------------------------------------------------](https://user-images.githubusercontent.com/56088716/103312593-8a37ff80-49eb-11eb-91d3-75488e21a0a9.png)
-## 📜 License
-This project is licensed under the [MIT License](https://github.com/tjackenpacken/taskbar-groups/blob/master/LICENSE).
+
 
 ![-----------------------------------------------------](https://user-images.githubusercontent.com/56088716/103312593-8a37ff80-49eb-11eb-91d3-75488e21a0a9.png)
