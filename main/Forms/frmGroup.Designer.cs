@@ -91,10 +91,9 @@ namespace client.Forms
             this.lblWith.BackColor = System.Drawing.Color.Transparent;
             this.lblWith.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.lblWith.ForeColor = System.Drawing.Color.White;
-            this.lblWith.Location = new System.Drawing.Point(670, 35);
-            this.lblWith.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblWith.Location = new System.Drawing.Point(447, 23);
             this.lblWith.Name = "lblWith";
-            this.lblWith.Size = new System.Drawing.Size(90, 36);
+            this.lblWith.Size = new System.Drawing.Size(64, 25);
             this.lblWith.TabIndex = 40;
             this.lblWith.Text = "Width:";
             // 
@@ -102,10 +101,9 @@ namespace client.Forms
             // 
             this.lblErrorNum.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.lblErrorNum.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorNum.Location = new System.Drawing.Point(402, 5);
-            this.lblErrorNum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblErrorNum.Location = new System.Drawing.Point(268, 3);
             this.lblErrorNum.Name = "lblErrorNum";
-            this.lblErrorNum.Size = new System.Drawing.Size(362, 29);
+            this.lblErrorNum.Size = new System.Drawing.Size(241, 19);
             this.lblErrorNum.TabIndex = 44;
             this.lblErrorNum.Text = "Error message";
             this.lblErrorNum.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -116,10 +114,9 @@ namespace client.Forms
             this.lblNum.BackColor = System.Drawing.Color.Transparent;
             this.lblNum.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold);
             this.lblNum.ForeColor = System.Drawing.Color.White;
-            this.lblNum.Location = new System.Drawing.Point(758, 35);
-            this.lblNum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNum.Location = new System.Drawing.Point(505, 23);
             this.lblNum.Name = "lblNum";
-            this.lblNum.Size = new System.Drawing.Size(52, 38);
+            this.lblNum.Size = new System.Drawing.Size(35, 25);
             this.lblNum.TabIndex = 41;
             this.lblNum.Text = "6";
             this.lblNum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -129,10 +126,9 @@ namespace client.Forms
             this.lblErrorIcon.AutoSize = true;
             this.lblErrorIcon.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.lblErrorIcon.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorIcon.Location = new System.Drawing.Point(220, 117);
-            this.lblErrorIcon.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblErrorIcon.Location = new System.Drawing.Point(147, 76);
             this.lblErrorIcon.Name = "lblErrorIcon";
-            this.lblErrorIcon.Size = new System.Drawing.Size(141, 28);
+            this.lblErrorIcon.Size = new System.Drawing.Size(96, 19);
             this.lblErrorIcon.TabIndex = 38;
             this.lblErrorIcon.Text = "Error message";
             this.lblErrorIcon.Visible = false;
@@ -142,10 +138,9 @@ namespace client.Forms
             this.lblErrorTitle.AutoSize = true;
             this.lblErrorTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.lblErrorTitle.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorTitle.Location = new System.Drawing.Point(66, 14);
-            this.lblErrorTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblErrorTitle.Location = new System.Drawing.Point(44, 9);
             this.lblErrorTitle.Name = "lblErrorTitle";
-            this.lblErrorTitle.Size = new System.Drawing.Size(141, 28);
+            this.lblErrorTitle.Size = new System.Drawing.Size(96, 19);
             this.lblErrorTitle.TabIndex = 37;
             this.lblErrorTitle.Text = "Error message";
             this.lblErrorTitle.Visible = false;
@@ -158,10 +153,9 @@ namespace client.Forms
             this.cmdSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmdSave.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdSave.ForeColor = System.Drawing.Color.White;
-            this.cmdSave.Location = new System.Drawing.Point(42, 11);
-            this.cmdSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmdSave.Location = new System.Drawing.Point(28, 7);
             this.cmdSave.Name = "cmdSave";
-            this.cmdSave.Size = new System.Drawing.Size(194, 46);
+            this.cmdSave.Size = new System.Drawing.Size(129, 30);
             this.cmdSave.TabIndex = 36;
             this.cmdSave.Text = "Save";
             this.cmdSave.UseVisualStyleBackColor = false;
@@ -175,10 +169,9 @@ namespace client.Forms
             this.cmdExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmdExit.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdExit.ForeColor = System.Drawing.Color.White;
-            this.cmdExit.Location = new System.Drawing.Point(256, 11);
-            this.cmdExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmdExit.Location = new System.Drawing.Point(171, 7);
             this.cmdExit.Name = "cmdExit";
-            this.cmdExit.Size = new System.Drawing.Size(194, 46);
+            this.cmdExit.Size = new System.Drawing.Size(129, 30);
             this.cmdExit.TabIndex = 35;
             this.cmdExit.Text = "Exit";
             this.cmdExit.UseVisualStyleBackColor = false;
@@ -189,10 +182,9 @@ namespace client.Forms
             this.pnlShortcuts.AutoScroll = true;
             this.pnlShortcuts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.pnlShortcuts.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pnlShortcuts.Location = new System.Drawing.Point(68, 298);
-            this.pnlShortcuts.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlShortcuts.Location = new System.Drawing.Point(45, 194);
             this.pnlShortcuts.Name = "pnlShortcuts";
-            this.pnlShortcuts.Size = new System.Drawing.Size(750, 8);
+            this.pnlShortcuts.Size = new System.Drawing.Size(500, 5);
             this.pnlShortcuts.TabIndex = 34;
             // 
             // pnlGroupIcon
@@ -201,10 +193,9 @@ namespace client.Forms
             this.pnlGroupIcon.Controls.Add(this.cmdAddGroupIcon);
             this.pnlGroupIcon.Controls.Add(this.lblAddGroupIcon);
             this.pnlGroupIcon.Controls.Add(this.lblAddGroupIconDesc);
-            this.pnlGroupIcon.Location = new System.Drawing.Point(74, 128);
-            this.pnlGroupIcon.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlGroupIcon.Location = new System.Drawing.Point(49, 83);
             this.pnlGroupIcon.Name = "pnlGroupIcon";
-            this.pnlGroupIcon.Size = new System.Drawing.Size(742, 132);
+            this.pnlGroupIcon.Size = new System.Drawing.Size(495, 86);
             this.pnlGroupIcon.TabIndex = 33;
             this.pnlGroupIcon.Click += new System.EventHandler(this.cmdAddGroupIcon_Click);
             this.pnlGroupIcon.DragDrop += new System.Windows.Forms.DragEventHandler(this.pnlDragDropImg);
@@ -217,10 +208,10 @@ namespace client.Forms
             // 
             this.cmdAddGroupIcon.BackgroundImage = global::client.Properties.Resources.AddWhite;
             this.cmdAddGroupIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.cmdAddGroupIcon.Location = new System.Drawing.Point(34, 18);
-            this.cmdAddGroupIcon.Margin = new System.Windows.Forms.Padding(45, 46, 15, 46);
+            this.cmdAddGroupIcon.Location = new System.Drawing.Point(23, 12);
+            this.cmdAddGroupIcon.Margin = new System.Windows.Forms.Padding(30, 30, 10, 30);
             this.cmdAddGroupIcon.Name = "cmdAddGroupIcon";
-            this.cmdAddGroupIcon.Size = new System.Drawing.Size(90, 92);
+            this.cmdAddGroupIcon.Size = new System.Drawing.Size(60, 60);
             this.cmdAddGroupIcon.TabIndex = 10;
             this.cmdAddGroupIcon.TabStop = false;
             this.cmdAddGroupIcon.Click += new System.EventHandler(this.cmdAddGroupIcon_Click);
@@ -233,10 +224,9 @@ namespace client.Forms
             this.lblAddGroupIcon.BackColor = System.Drawing.Color.Transparent;
             this.lblAddGroupIcon.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddGroupIcon.ForeColor = System.Drawing.Color.White;
-            this.lblAddGroupIcon.Location = new System.Drawing.Point(144, 23);
-            this.lblAddGroupIcon.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAddGroupIcon.Location = new System.Drawing.Point(96, 15);
             this.lblAddGroupIcon.Name = "lblAddGroupIcon";
-            this.lblAddGroupIcon.Size = new System.Drawing.Size(292, 45);
+            this.lblAddGroupIcon.Size = new System.Drawing.Size(190, 30);
             this.lblAddGroupIcon.TabIndex = 11;
             this.lblAddGroupIcon.Text = "Change group icon";
             this.lblAddGroupIcon.Click += new System.EventHandler(this.cmdAddGroupIcon_Click);
@@ -249,10 +239,9 @@ namespace client.Forms
             this.lblAddGroupIconDesc.BackColor = System.Drawing.Color.Transparent;
             this.lblAddGroupIconDesc.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddGroupIconDesc.ForeColor = System.Drawing.Color.White;
-            this.lblAddGroupIconDesc.Location = new System.Drawing.Point(148, 71);
-            this.lblAddGroupIconDesc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAddGroupIconDesc.Location = new System.Drawing.Point(99, 46);
             this.lblAddGroupIconDesc.Name = "lblAddGroupIconDesc";
-            this.lblAddGroupIconDesc.Size = new System.Drawing.Size(365, 28);
+            this.lblAddGroupIconDesc.Size = new System.Drawing.Size(245, 17);
             this.lblAddGroupIconDesc.TabIndex = 12;
             this.lblAddGroupIconDesc.Text = "Select the icon that shows in the taskbar ";
             this.lblAddGroupIconDesc.Click += new System.EventHandler(this.cmdAddGroupIcon_Click);
@@ -264,10 +253,9 @@ namespace client.Forms
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
-            this.label4.Location = new System.Drawing.Point(68, 280);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(45, 182);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(750, 2);
+            this.label4.Size = new System.Drawing.Size(500, 1);
             this.label4.TabIndex = 32;
             // 
             // label2
@@ -275,10 +263,9 @@ namespace client.Forms
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
-            this.label2.Location = new System.Drawing.Point(68, 106);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(45, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(750, 2);
+            this.label2.Size = new System.Drawing.Size(500, 1);
             this.label2.TabIndex = 31;
             // 
             // txtGroupName
@@ -287,10 +274,9 @@ namespace client.Forms
             this.txtGroupName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGroupName.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGroupName.ForeColor = System.Drawing.Color.White;
-            this.txtGroupName.Location = new System.Drawing.Point(72, 45);
-            this.txtGroupName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtGroupName.Location = new System.Drawing.Point(48, 29);
             this.txtGroupName.Name = "txtGroupName";
-            this.txtGroupName.Size = new System.Drawing.Size(592, 48);
+            this.txtGroupName.Size = new System.Drawing.Size(395, 32);
             this.txtGroupName.TabIndex = 30;
             this.txtGroupName.TabStop = false;
             this.txtGroupName.Text = "Name the new group...";
@@ -304,10 +290,9 @@ namespace client.Forms
             this.pnlAddShortcut.Controls.Add(this.cmdAddShortcut);
             this.pnlAddShortcut.Controls.Add(this.lblErrorShortcut);
             this.pnlAddShortcut.Controls.Add(this.lblAddShortcut);
-            this.pnlAddShortcut.Location = new System.Drawing.Point(141, 312);
-            this.pnlAddShortcut.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlAddShortcut.Location = new System.Drawing.Point(94, 203);
             this.pnlAddShortcut.Name = "pnlAddShortcut";
-            this.pnlAddShortcut.Size = new System.Drawing.Size(622, 123);
+            this.pnlAddShortcut.Size = new System.Drawing.Size(415, 80);
             this.pnlAddShortcut.TabIndex = 45;
             this.pnlAddShortcut.Click += new System.EventHandler(this.pnlAddShortcut_Click);
             this.pnlAddShortcut.DragDrop += new System.Windows.Forms.DragEventHandler(this.pnlDragDropExt);
@@ -320,10 +305,10 @@ namespace client.Forms
             // 
             this.cmdAddShortcut.BackgroundImage = global::client.Properties.Resources.AddGray;
             this.cmdAddShortcut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.cmdAddShortcut.Location = new System.Drawing.Point(286, 25);
-            this.cmdAddShortcut.Margin = new System.Windows.Forms.Padding(45, 46, 15, 46);
+            this.cmdAddShortcut.Location = new System.Drawing.Point(191, 16);
+            this.cmdAddShortcut.Margin = new System.Windows.Forms.Padding(30, 30, 10, 30);
             this.cmdAddShortcut.Name = "cmdAddShortcut";
-            this.cmdAddShortcut.Size = new System.Drawing.Size(52, 54);
+            this.cmdAddShortcut.Size = new System.Drawing.Size(35, 35);
             this.cmdAddShortcut.TabIndex = 15;
             this.cmdAddShortcut.TabStop = false;
             this.cmdAddShortcut.Click += new System.EventHandler(this.pnlAddShortcut_Click);
@@ -334,10 +319,9 @@ namespace client.Forms
             // 
             this.lblErrorShortcut.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.lblErrorShortcut.ForeColor = System.Drawing.Color.Red;
-            this.lblErrorShortcut.Location = new System.Drawing.Point(0, 83);
-            this.lblErrorShortcut.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblErrorShortcut.Location = new System.Drawing.Point(0, 54);
             this.lblErrorShortcut.Name = "lblErrorShortcut";
-            this.lblErrorShortcut.Size = new System.Drawing.Size(621, 29);
+            this.lblErrorShortcut.Size = new System.Drawing.Size(414, 19);
             this.lblErrorShortcut.TabIndex = 23;
             this.lblErrorShortcut.Text = "Error message";
             this.lblErrorShortcut.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -349,10 +333,9 @@ namespace client.Forms
             this.lblAddShortcut.BackColor = System.Drawing.Color.Transparent;
             this.lblAddShortcut.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddShortcut.ForeColor = System.Drawing.Color.White;
-            this.lblAddShortcut.Location = new System.Drawing.Point(238, 78);
-            this.lblAddShortcut.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAddShortcut.Location = new System.Drawing.Point(159, 51);
             this.lblAddShortcut.Name = "lblAddShortcut";
-            this.lblAddShortcut.Size = new System.Drawing.Size(166, 28);
+            this.lblAddShortcut.Size = new System.Drawing.Size(110, 17);
             this.lblAddShortcut.TabIndex = 14;
             this.lblAddShortcut.Text = "Add new shortcut";
             this.lblAddShortcut.Click += new System.EventHandler(this.pnlAddShortcut_Click);
@@ -372,10 +355,9 @@ namespace client.Forms
             this.pnlColor.Controls.Add(this.radioCustom);
             this.pnlColor.Controls.Add(this.radioDark);
             this.pnlColor.Controls.Add(this.radioLight);
-            this.pnlColor.Location = new System.Drawing.Point(165, 837);
-            this.pnlColor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlColor.Location = new System.Drawing.Point(110, 544);
             this.pnlColor.Name = "pnlColor";
-            this.pnlColor.Size = new System.Drawing.Size(552, 252);
+            this.pnlColor.Size = new System.Drawing.Size(368, 164);
             this.pnlColor.TabIndex = 48;
             // 
             // numOpacDown
@@ -385,10 +367,9 @@ namespace client.Forms
             this.numOpacDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.numOpacDown.FlatAppearance.BorderSize = 0;
             this.numOpacDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numOpacDown.Location = new System.Drawing.Point(375, 177);
-            this.numOpacDown.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.numOpacDown.Location = new System.Drawing.Point(250, 115);
             this.numOpacDown.Name = "numOpacDown";
-            this.numOpacDown.Size = new System.Drawing.Size(24, 12);
+            this.numOpacDown.Size = new System.Drawing.Size(16, 8);
             this.numOpacDown.TabIndex = 49;
             this.numOpacDown.UseVisualStyleBackColor = false;
             this.numOpacDown.Click += new System.EventHandler(this.numOpacDown_Click);
@@ -400,10 +381,9 @@ namespace client.Forms
             this.numOpacUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.numOpacUp.FlatAppearance.BorderSize = 0;
             this.numOpacUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.numOpacUp.Location = new System.Drawing.Point(375, 155);
-            this.numOpacUp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.numOpacUp.Location = new System.Drawing.Point(250, 101);
             this.numOpacUp.Name = "numOpacUp";
-            this.numOpacUp.Size = new System.Drawing.Size(24, 12);
+            this.numOpacUp.Size = new System.Drawing.Size(16, 8);
             this.numOpacUp.TabIndex = 50;
             this.numOpacUp.UseVisualStyleBackColor = false;
             this.numOpacUp.Click += new System.EventHandler(this.numOpacUp_Click);
@@ -413,10 +393,9 @@ namespace client.Forms
             this.lblPercent.AutoSize = true;
             this.lblPercent.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.lblPercent.ForeColor = System.Drawing.Color.White;
-            this.lblPercent.Location = new System.Drawing.Point(324, 157);
-            this.lblPercent.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPercent.Location = new System.Drawing.Point(216, 102);
             this.lblPercent.Name = "lblPercent";
-            this.lblPercent.Size = new System.Drawing.Size(33, 31);
+            this.lblPercent.Size = new System.Drawing.Size(21, 20);
             this.lblPercent.TabIndex = 5;
             this.lblPercent.Text = "%";
             // 
@@ -425,10 +404,9 @@ namespace client.Forms
             this.pnlAllowOpenAll.AutoSize = true;
             this.pnlAllowOpenAll.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.pnlAllowOpenAll.ForeColor = System.Drawing.Color.White;
-            this.pnlAllowOpenAll.Location = new System.Drawing.Point(96, 202);
-            this.pnlAllowOpenAll.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlAllowOpenAll.Location = new System.Drawing.Point(64, 131);
             this.pnlAllowOpenAll.Name = "pnlAllowOpenAll";
-            this.pnlAllowOpenAll.Size = new System.Drawing.Size(425, 35);
+            this.pnlAllowOpenAll.Size = new System.Drawing.Size(278, 24);
             this.pnlAllowOpenAll.TabIndex = 49;
             this.pnlAllowOpenAll.Text = "Allow open-all shortcuts (Ctrl + Enter)";
             this.pnlAllowOpenAll.UseVisualStyleBackColor = true;
@@ -439,10 +417,9 @@ namespace client.Forms
             this.lblOpacityTooltip.AutoSize = true;
             this.lblOpacityTooltip.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.lblOpacityTooltip.ForeColor = System.Drawing.Color.White;
-            this.lblOpacityTooltip.Location = new System.Drawing.Point(190, 155);
-            this.lblOpacityTooltip.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblOpacityTooltip.Location = new System.Drawing.Point(127, 101);
             this.lblOpacityTooltip.Name = "lblOpacityTooltip";
-            this.lblOpacityTooltip.Size = new System.Drawing.Size(98, 31);
+            this.lblOpacityTooltip.Size = new System.Drawing.Size(63, 20);
             this.lblOpacityTooltip.TabIndex = 4;
             this.lblOpacityTooltip.Text = "Opacity:";
             // 
@@ -450,10 +427,9 @@ namespace client.Forms
             // 
             this.lblOpacity.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.lblOpacity.ForeColor = System.Drawing.Color.White;
-            this.lblOpacity.Location = new System.Drawing.Point(278, 157);
-            this.lblOpacity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblOpacity.Location = new System.Drawing.Point(185, 102);
             this.lblOpacity.Name = "lblOpacity";
-            this.lblOpacity.Size = new System.Drawing.Size(52, 31);
+            this.lblOpacity.Size = new System.Drawing.Size(35, 20);
             this.lblOpacity.TabIndex = 50;
             this.lblOpacity.Text = "10";
             this.lblOpacity.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -463,18 +439,16 @@ namespace client.Forms
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
-            this.label1.Location = new System.Drawing.Point(284, 188);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(189, 122);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 2);
+            this.label1.Size = new System.Drawing.Size(45, 1);
             this.label1.TabIndex = 49;
             // 
             // pnlCustomColor
             // 
-            this.pnlCustomColor.Location = new System.Drawing.Point(384, 115);
-            this.pnlCustomColor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlCustomColor.Location = new System.Drawing.Point(256, 75);
             this.pnlCustomColor.Name = "pnlCustomColor";
-            this.pnlCustomColor.Size = new System.Drawing.Size(22, 23);
+            this.pnlCustomColor.Size = new System.Drawing.Size(15, 15);
             this.pnlCustomColor.TabIndex = 3;
             // 
             // radioCustom
@@ -482,10 +456,9 @@ namespace client.Forms
             this.radioCustom.AutoSize = true;
             this.radioCustom.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioCustom.ForeColor = System.Drawing.Color.White;
-            this.radioCustom.Location = new System.Drawing.Point(202, 106);
-            this.radioCustom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioCustom.Location = new System.Drawing.Point(135, 69);
             this.radioCustom.Name = "radioCustom";
-            this.radioCustom.Size = new System.Drawing.Size(174, 35);
+            this.radioCustom.Size = new System.Drawing.Size(115, 24);
             this.radioCustom.TabIndex = 2;
             this.radioCustom.TabStop = true;
             this.radioCustom.Text = "Custom color";
@@ -497,10 +470,9 @@ namespace client.Forms
             this.radioDark.AutoSize = true;
             this.radioDark.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioDark.ForeColor = System.Drawing.Color.White;
-            this.radioDark.Location = new System.Drawing.Point(202, 14);
-            this.radioDark.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioDark.Location = new System.Drawing.Point(135, 9);
             this.radioDark.Name = "radioDark";
-            this.radioDark.Size = new System.Drawing.Size(143, 35);
+            this.radioDark.Size = new System.Drawing.Size(96, 24);
             this.radioDark.TabIndex = 1;
             this.radioDark.TabStop = true;
             this.radioDark.Text = "Dark color";
@@ -512,10 +484,9 @@ namespace client.Forms
             this.radioLight.AutoSize = true;
             this.radioLight.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioLight.ForeColor = System.Drawing.Color.White;
-            this.radioLight.Location = new System.Drawing.Point(202, 60);
-            this.radioLight.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioLight.Location = new System.Drawing.Point(135, 39);
             this.radioLight.Name = "radioLight";
-            this.radioLight.Size = new System.Drawing.Size(148, 35);
+            this.radioLight.Size = new System.Drawing.Size(98, 24);
             this.radioLight.TabIndex = 0;
             this.radioLight.TabStop = true;
             this.radioLight.Text = "Light color";
@@ -530,10 +501,9 @@ namespace client.Forms
             this.cmdDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmdDelete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdDelete.ForeColor = System.Drawing.Color.White;
-            this.cmdDelete.Location = new System.Drawing.Point(470, 11);
-            this.cmdDelete.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmdDelete.Location = new System.Drawing.Point(313, 7);
             this.cmdDelete.Name = "cmdDelete";
-            this.cmdDelete.Size = new System.Drawing.Size(194, 46);
+            this.cmdDelete.Size = new System.Drawing.Size(129, 30);
             this.cmdDelete.TabIndex = 46;
             this.cmdDelete.Text = "Delete";
             this.cmdDelete.UseVisualStyleBackColor = false;
@@ -544,10 +514,9 @@ namespace client.Forms
             this.pnlEnd.Controls.Add(this.cmdDelete);
             this.pnlEnd.Controls.Add(this.cmdSave);
             this.pnlEnd.Controls.Add(this.cmdExit);
-            this.pnlEnd.Location = new System.Drawing.Point(78, 1111);
-            this.pnlEnd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlEnd.Location = new System.Drawing.Point(52, 722);
             this.pnlEnd.Name = "pnlEnd";
-            this.pnlEnd.Size = new System.Drawing.Size(723, 68);
+            this.pnlEnd.Size = new System.Drawing.Size(482, 44);
             this.pnlEnd.TabIndex = 47;
             // 
             // cmdWidthDown
@@ -557,10 +526,9 @@ namespace client.Forms
             this.cmdWidthDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cmdWidthDown.FlatAppearance.BorderSize = 0;
             this.cmdWidthDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdWidthDown.Location = new System.Drawing.Point(771, 78);
-            this.cmdWidthDown.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmdWidthDown.Location = new System.Drawing.Point(514, 51);
             this.cmdWidthDown.Name = "cmdWidthDown";
-            this.cmdWidthDown.Size = new System.Drawing.Size(24, 12);
+            this.cmdWidthDown.Size = new System.Drawing.Size(16, 8);
             this.cmdWidthDown.TabIndex = 42;
             this.cmdWidthDown.UseVisualStyleBackColor = false;
             this.cmdWidthDown.Click += new System.EventHandler(this.cmdWidthDown_Click);
@@ -572,10 +540,9 @@ namespace client.Forms
             this.cmdWidthUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cmdWidthUp.FlatAppearance.BorderSize = 0;
             this.cmdWidthUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmdWidthUp.Location = new System.Drawing.Point(771, 20);
-            this.cmdWidthUp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmdWidthUp.Location = new System.Drawing.Point(514, 13);
             this.cmdWidthUp.Name = "cmdWidthUp";
-            this.cmdWidthUp.Size = new System.Drawing.Size(24, 12);
+            this.cmdWidthUp.Size = new System.Drawing.Size(16, 8);
             this.cmdWidthUp.TabIndex = 43;
             this.cmdWidthUp.UseVisualStyleBackColor = false;
             this.cmdWidthUp.Click += new System.EventHandler(this.cmdWidthUp_Click);
@@ -589,10 +556,9 @@ namespace client.Forms
             this.pnlArguments.Controls.Add(this.pnlWorkingDirectory);
             this.pnlArguments.Controls.Add(this.label3);
             this.pnlArguments.Controls.Add(this.pnlArgumentTextbox);
-            this.pnlArguments.Location = new System.Drawing.Point(68, 842);
-            this.pnlArguments.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlArguments.Location = new System.Drawing.Point(45, 547);
             this.pnlArguments.Name = "pnlArguments";
-            this.pnlArguments.Size = new System.Drawing.Size(723, 202);
+            this.pnlArguments.Size = new System.Drawing.Size(482, 131);
             this.pnlArguments.TabIndex = 48;
             this.pnlArguments.Visible = false;
             // 
@@ -601,10 +567,9 @@ namespace client.Forms
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
-            this.label7.Location = new System.Drawing.Point(39, 78);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(26, 51);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(660, 2);
+            this.label7.Size = new System.Drawing.Size(440, 1);
             this.label7.TabIndex = 53;
             // 
             // label6
@@ -612,10 +577,9 @@ namespace client.Forms
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(143)))), ((int)(((byte)(143)))));
-            this.label6.Location = new System.Drawing.Point(39, 158);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(26, 103);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(502, 2);
+            this.label6.Size = new System.Drawing.Size(335, 1);
             this.label6.TabIndex = 50;
             // 
             // cmdSelectDirectory
@@ -625,10 +589,9 @@ namespace client.Forms
             this.cmdSelectDirectory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmdSelectDirectory.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.cmdSelectDirectory.ForeColor = System.Drawing.Color.White;
-            this.cmdSelectDirectory.Location = new System.Drawing.Point(550, 122);
-            this.cmdSelectDirectory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cmdSelectDirectory.Location = new System.Drawing.Point(367, 79);
             this.cmdSelectDirectory.Name = "cmdSelectDirectory";
-            this.cmdSelectDirectory.Size = new System.Drawing.Size(146, 42);
+            this.cmdSelectDirectory.Size = new System.Drawing.Size(97, 27);
             this.cmdSelectDirectory.TabIndex = 52;
             this.cmdSelectDirectory.Text = "Select Directory";
             this.cmdSelectDirectory.UseVisualStyleBackColor = false;
@@ -639,10 +602,9 @@ namespace client.Forms
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(34, 97);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(23, 63);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(203, 31);
+            this.label5.Size = new System.Drawing.Size(132, 20);
             this.label5.TabIndex = 51;
             this.label5.Text = "Working Directory:";
             // 
@@ -653,10 +615,9 @@ namespace client.Forms
             this.pnlWorkingDirectory.Enabled = false;
             this.pnlWorkingDirectory.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.pnlWorkingDirectory.ForeColor = System.Drawing.Color.White;
-            this.pnlWorkingDirectory.Location = new System.Drawing.Point(40, 131);
-            this.pnlWorkingDirectory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlWorkingDirectory.Location = new System.Drawing.Point(27, 85);
             this.pnlWorkingDirectory.Name = "pnlWorkingDirectory";
-            this.pnlWorkingDirectory.Size = new System.Drawing.Size(495, 24);
+            this.pnlWorkingDirectory.Size = new System.Drawing.Size(330, 16);
             this.pnlWorkingDirectory.TabIndex = 50;
             this.pnlWorkingDirectory.TextChanged += new System.EventHandler(this.pnlWorkingDirectory_TextChanged);
             // 
@@ -665,10 +626,9 @@ namespace client.Forms
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(34, 17);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(23, 11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 31);
+            this.label3.Size = new System.Drawing.Size(84, 20);
             this.label3.TabIndex = 1;
             this.label3.Text = "Arguments:";
             // 
@@ -679,21 +639,20 @@ namespace client.Forms
             this.pnlArgumentTextbox.Enabled = false;
             this.pnlArgumentTextbox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.pnlArgumentTextbox.ForeColor = System.Drawing.Color.White;
-            this.pnlArgumentTextbox.Location = new System.Drawing.Point(39, 51);
-            this.pnlArgumentTextbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pnlArgumentTextbox.Location = new System.Drawing.Point(26, 33);
             this.pnlArgumentTextbox.Name = "pnlArgumentTextbox";
-            this.pnlArgumentTextbox.Size = new System.Drawing.Size(638, 24);
+            this.pnlArgumentTextbox.Size = new System.Drawing.Size(425, 16);
             this.pnlArgumentTextbox.TabIndex = 0;
             this.pnlArgumentTextbox.TextChanged += new System.EventHandler(this.pnlArgumentTextbox_TextChanged);
             this.pnlArgumentTextbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.pnlArgumentTextbox_KeyDown);
             // 
             // frmGroup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.ClientSize = new System.Drawing.Size(884, 1263);
+            this.ClientSize = new System.Drawing.Size(589, 690);
             this.Controls.Add(this.pnlArguments);
             this.Controls.Add(this.pnlEnd);
             this.Controls.Add(this.pnlAddShortcut);
@@ -711,7 +670,6 @@ namespace client.Forms
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtGroupName);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmGroup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "New group";

@@ -3,7 +3,6 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Net.Http;
-using System.Reflection;
 using System.Runtime;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -22,10 +21,6 @@ namespace client.Forms
             InitializeComponent();
             MaximumSize = new Size(Screen.PrimaryScreen.WorkingArea.Width, Screen.PrimaryScreen.WorkingArea.Height);
             Reload();
-
-            currentVersion.Text = "v" + Assembly.GetEntryAssembly().GetName().Version;
-
-            githubVersion.Text = Task.Run(() => getVersionData()).Result;
         }
         public void Reload()
         {

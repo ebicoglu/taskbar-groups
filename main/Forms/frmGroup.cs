@@ -7,9 +7,7 @@ using System.Linq;
 using System.Runtime;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
-using System.Transactions;
 using System.Windows.Forms;
-using ChinhDo.Transactions;
 using client.Classes;
 using client.Properties;
 using client.User_controls;
@@ -168,7 +166,7 @@ namespace client.Forms
 
             var openFileDialog = new OpenFileDialog // ask user to select exe file
             {
-                InitialDirectory = @"C:\ProgramData\Microsoft\Windows\Start Menu\Programs",
+                //InitialDirectory = @"C:\ProgramData\Microsoft\Windows\Start Menu\Programs",
                 Title = @"Create New Shortcut",
                 CheckFileExists = true,
                 CheckPathExists = true,
@@ -328,7 +326,7 @@ namespace client.Forms
 
             var openFileDialog = new OpenFileDialog  // ask user to select img as group icon
             {
-                InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures),
+                // InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures),
                 Title = @"Select Group Icon",
                 CheckFileExists = true,
                 CheckPathExists = true,
@@ -578,18 +576,28 @@ namespace client.Forms
 
                         try
                         {
-                            IFileManager fm = new TxFileManager();
-                            using (var scope1 = new TransactionScope())
+
+                            if (Directory.Exists(configPath))
                             {
-                                fm.DeleteDirectory(configPath);
-                                fm.Delete(shortcutPath);
-                                scope1.Complete();
+                                Directory.Delete(configPath, true);
                             }
                         }
-                        catch (Exception)
+                        catch (Exception ex)
                         {
-                            MessageBox.Show(@"Please close all programs used within the taskbar group in order to save!");
-                            return;
+                            MessageBox.Show(@"ERR#1: Cannot delete " + configPath + " - " + ex.Message);
+                        }
+
+                        try
+                        {
+
+                            if (File.Exists(shortcutPath))
+                            {
+                                File.Delete(shortcutPath);
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(@"ERR#2: Cannot delete " + shortcutPath + " - " + ex.Message);
                         }
                     }
                     //
@@ -629,30 +637,41 @@ namespace client.Forms
                 var configPath = MainPath.path + @"\config\" + Category.Name;
                 var shortcutPath = MainPath.path + @"\Shortcuts\" + Regex.Replace(Category.Name, @"(_)+", " ") + ".lnk";
 
+
                 try
                 {
-                    IFileManager fm = new TxFileManager();
-                    using (var scope1 = new TransactionScope())
+                    if (Directory.Exists(configPath))
                     {
-                        fm.DeleteDirectory(configPath);
-                        fm.Delete(shortcutPath);
-                        Hide();
-                        Dispose();
-                        Client.Reload(); //flush and reload category panels
-                        scope1.Complete();
+                        Directory.Delete(configPath, true);
                     }
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MessageBox.Show(@"Please close all programs used within the taskbar group in order to delete!");
-                    return;
+                    MessageBox.Show(@"ERR#3:Cannot delete " + configPath + " - " + ex.Message);
                 }
 
+                try
+                {
+                    if (File.Exists(configPath))
+                    {
+                        File.Delete(shortcutPath);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(@"ERR#3:Cannot delete " + configPath + " - " + ex.Message);
+                }
+
+
+                Hide();
+                Dispose();
+                Client.Reload();
             }
             catch (IOException ex)
             {
                 MessageBox.Show(ex.Message);
             }
+
             Client.Reset();
 
         }
